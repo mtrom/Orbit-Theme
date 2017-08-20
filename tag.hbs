@@ -1,0 +1,14 @@
+{{!< default}}
+<section class="section summary-section">
+  {{#tag}}
+    <h1>{{name}}</h1>
+    <p>{{description}}</p>
+  {{/tag}}
+  <div class="summary">
+    {{#foreach posts}}
+      <div class="item">
+        <span class="post-title"><a href="{{url}}">{{title}}</a></span> - <span class="post-tagline">{{excerpt}}</span>
+      </div>
+    {{/foreach}}
+  </div>
+</section>

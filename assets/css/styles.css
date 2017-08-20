@@ -74,6 +74,9 @@ p > a {
   text-align: center;
   color: #fff;
 }
+.sidebar-wrapper .profile-container img {
+    width: 170px;
+}
 .sidebar-wrapper .name {
   font-size: 27px;
   font-weight: 900;
@@ -225,16 +228,16 @@ p > a {
   margin-bottom: 10px;
   color: #97AAC3;
 }
-.main-wrapper .project-title {
+.main-wrapper .post-title {
   font-size: 16px;
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 5px;
 }
-.main-wrapper .projects-section .intro {
+.main-wrapper .post-section .intro {
   margin-bottom: 30px;
 }
-.main-wrapper .projects-section .item {
+.main-wrapper .post-section .item {
   margin-bottom: 15px;
 }
 .skillset .item {

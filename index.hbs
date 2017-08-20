@@ -44,13 +44,16 @@
 
 </section>
 
-<section class="section projects-section">
+<section class="section post-section">
   <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
   <div class="intro">
     <p> I've highlighted some projects I've worked on. Some for class, some for clubs I was involved with at Penn, and some for myself: </p>
+  </div>
+  {{#get "posts" filter="tags:project"}}
     {{#foreach posts}}
-      <div class="item">
-        <span class="project-title"><a href="{{url}}">{{title}}</a></span> - <span class="project-tagline">{{excerpt}}</span>
-      </div>
+      {{#if featured}}
+          {{> post-card}}
+      {{/if}}
     {{/foreach}}
+  {{/get}}
 </section>
