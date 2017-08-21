@@ -1,7 +1,7 @@
 <div class="sidebar-wrapper">
     <div class="profile-container">
-        <img class="profile" src="{{ @blog.logo }}" alt="" />
-        <h1 class="name">{{ @blog.title }}</h1>
+        <a href="{{@blog.url}}"><img class="profile" src="{{ @blog.logo }}" alt="Picture of {{@blog.title}}" /></a>
+        <a href="{{@blog.url}}" class="name-link"><h1 class="name">{{ @blog.title }}</h1></a>
         <h3 class="tagline">Software Developer</h3>
     </div>
     

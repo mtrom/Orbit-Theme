@@ -83,6 +83,9 @@ p > a {
   margin-top: 0;
   margin-bottom: 10px;
 }
+.sidebar-wrapper a.name-link:hover {
+    text-decoration: none;
+}
 .sidebar-wrapper .tagline {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
@@ -276,7 +279,8 @@ p > a {
 @media (max-width: 767px) {
   .sidebar-wrapper {
     position: static;
-    width: inherit;
+    width: 100%;
+    margin-bottom: 30px;
   }
   .main-wrapper {
     padding: 30px;
