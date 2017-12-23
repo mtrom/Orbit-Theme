@@ -1,7 +1,7 @@
 {
     "name": "orbit",
     "description": "Ghost theme adapted from xriley's Orbit theme",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "engines": {
         "ghost": ">=1.0.0"
     },
