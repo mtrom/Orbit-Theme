@@ -10,5 +10,6 @@
         "name": "Max Tromanhauser",
         "email": "mtromanhauser@gmail.com",
         "url": "http://max.troman.haus/"
-    }
+    },
+    "keywords": [ "ghost-theme" ]
 }
